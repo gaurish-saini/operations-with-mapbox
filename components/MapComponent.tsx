@@ -6,7 +6,7 @@ interface MapComponentProps {
   className?: string;
 }
 
-const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN || "";
+const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "";
 
 /*
 This component is responsible for rendering the map. This component has to show the map and 
